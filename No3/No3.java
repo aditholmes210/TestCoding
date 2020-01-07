@@ -6,12 +6,12 @@ public class No3{
 		double gaji = 4600897;
 		double anak = 4;
 		double tunSpouse = gaji * 0.1;
-		double tunAnak = anak * (0.2 * gaji);
+		double tunAnak = anak * (0.02 * gaji);
 		double bruto = gaji + tunSpouse + tunAnak;
-		double pensiun = 0.4 * gaji;
+		double pensiun = 0.04 * gaji;
 		double netto = bruto - pensiun;
 		
-		print("Gaji Pokok/Bulan        = Rp."+Math.round(gaji));
+		print("\nGaji Pokok/Bulan        = Rp."+Math.round(gaji));
 		print("Tunjangan Suami/Istri   = Rp."+Math.round(tunSpouse));
 		print("Tunjangan Anak          = Rp."+Math.round(tunAnak));
 		print("===========================");
@@ -20,6 +20,6 @@ public class No3{
 		print("Pengurangan");
 		print("Iuran Pensiun           = Rp."+Math.round(pensiun));
 		print("===========================");
-		print("Penghasilan Netto/Bulan = Rp."+Math.round(netto));
+		print("Penghasilan Netto/Bulan = Rp."+Math.round(netto));	
 	}
 }
